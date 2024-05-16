@@ -1,0 +1,30 @@
+{
+    "name": "aimalazmi/omnipay-worldpay-hosted",
+    "type": "library",
+    "description": "WorldPay Hosted Corporate Gateway driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "worldpay",
+        "payment",
+        "corporate"
+    ],
+    "homepage": "https://github.com/AimalAzmi/omnipay-worldpay-hosted",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimal Azmi"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Omnipay\\WorldPayHosted\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.3"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
